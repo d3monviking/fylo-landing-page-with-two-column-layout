@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 1.1em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+p {
+    font-family:'Open Sans' , sans-serif; 
+}
+
+.top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    background-image: url("/images/bg-curve-desktop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top-content button {
+    background-color: hsl(224, 93%, 58%); 
+    color: white;
+    width: 32%; 
+    height: 35px; 
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.top-content button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: hsl(240, 75%, 98%);
+    background-repeat: no-repeat;
+}
+
+.mid-content a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.testimonial {
+    background-color: white;
+    margin-top: 40px;
+    width: 55%;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 95%), -5px -5px 10px hsl(0, 0%, 95%);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.cta {
+    background-color: hsl(238, 22%, 44%);
+    padding: 70px;
+    padding-top: 90px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cta button {
+    background-color: hsl(224, 93%, 58%); 
+    color: white;
+    border: none;
+    width: 50%; 
+    height: 50px; 
+    border-radius: 3px;
+}
+
+.cta button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    padding-right: 350px;
+    padding-top: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: hsl(238, 23%, 65%);
+}
+
